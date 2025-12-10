@@ -12,6 +12,9 @@ const UEC = () => {
   useEffect(() => {
     console.log("My name is : ", input);
   }, [input]);
+  useEffect(() => {
+    document.title = `count = ${count}`;
+  }, [count]);
   return (
     <>
       <h1>Count : {count} </h1>
