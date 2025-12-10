@@ -1,0 +1,1 @@
+1. so if we write only input in use effect without passing any state to the dependency than its not work every time it only work when component is mounted at first time and in first time we do not pass any thing input because that is first time yeah if we give some default value to the state than it will show but every time it doesn't show any things there.
