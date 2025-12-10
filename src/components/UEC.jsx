@@ -14,7 +14,7 @@ const UEC = () => {
   }, [input]);
   return (
     <>
-      <h1>Count : </h1>
+      <h1>Count : {count} </h1>
       <button onClick={handleButton}>Increment</button>
       <label htmlFor="name">Name</label>
       <input value={input} onChange={handleInput} id="name" type="text" />
