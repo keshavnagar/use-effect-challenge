@@ -12,11 +12,12 @@ const UEC = () => {
   useEffect(() => {
     console.log("My name is : ", input);
   }, [input]);
-  useEffect(() => {
-    document.title = `count = ${count}`;
-  }, [count]);
+  //   useEffect(() => {
+  //     // document.title = `count = ${count}`;
+  //   }, [count]);
   return (
     <>
+      <title>{count}</title>
       <h1>Count : {count} </h1>
       <button onClick={handleButton}>Increment</button>
       <h1>Name: {input}</h1>
